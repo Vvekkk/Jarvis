@@ -11,14 +11,14 @@ import wikipedia
 import webbrowser                           
 import os   #for music
 
-External Modules required:
+# External Modules required:
 
 pyttsx3 --> For speaking ability.
 SpeechRecognition --> For listening ability.
 wikipedia --> To search through the wikipedia for the query.
 pyaudio --> Dependency for speech recognition module.
 
-Solving issues
+# Solving issues
 If you are unable to install pyaudio, type the following commands:
 pip install pipwin
 
