@@ -1,6 +1,6 @@
 # Jarvis
-JARVIS- AI Desktop Voice Assistant
-i have developed a python program to get some general task done. It takes voice input and can do some general tasks like google assistant. We have used python built-in modules and library for this, some are -
+# JARVIS- AI Desktop Voice Assistant
+I have developed a python program to get some general task done. It takes voice input and can do some general tasks like google assistant. We have used python built-in modules and library for this, some are -
 
 from re import S
 from time import struct_time
