@@ -1,12 +1,39 @@
-# Jarvis AI
-- This is my project. It will do daily tasks like Open Google, Open YouTube, Open VSCode with the help of a single voice command.
+# Jarvis AI Desktop Voice Assistant
+- This is my project. It will do daily tasks like Open Google, Open YouTube, Open VSCode, play music with the help of a single voice command.
 - JARVIS full form is Just A Rather Very Intelligent System.
+- It takes voice input and can do some general tasks like google assistant. I have used python built-in modules and library for this, some are -
+
+- from re import S
+- from time import struct_time
+- import pyttsx3
+- import speech_recognition as sr 
+- import datetime
+- import wikipedia
+- import webbrowser
+- import os   #for music
 
 ## What can Jarvis AI assistant do for you?
+- It will greet as soon as you run the code according to the time.
 - It can do Wikipedia searches for you.
 - It is capable of opening websites like Google, Youtube, etc., in a web browser.
 - It is capable of opening your code editor or IDE with a single voice command.
 - It also tells the current time.
+- It can also play music.
+
+## Jarvis External Modules required:
+
+    pyttsx3 --> For speaking ability.
+    SpeechRecognition --> For listening ability.
+    wikipedia --> To search through the wikipedia for the query.
+    pyaudio --> Dependency for speech recognition module.
+
+##Solving issues
+If you are unable to install pyaudio, type the following commands:
+pip install pipwin
+
+    pipwin install pyaudio
+
+It should work now.
 
 Let's start understaing our own JARVIS.
 
