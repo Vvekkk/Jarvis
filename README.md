@@ -33,7 +33,7 @@ pip install pipwin
 
     pipwin install pyaudio
 
-It should work now. # NOTE JARVIS  REQUIRES INTERNET CONNECTION!
+It should work now. #NOTE JARVIS  REQUIRES INTERNET CONNECTION!
 
 Let's start understaing our own JARVIS.
 
