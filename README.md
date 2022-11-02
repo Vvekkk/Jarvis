@@ -27,7 +27,7 @@
     wikipedia --> To search through the wikipedia for the query.
     pyaudio --> Dependency for speech recognition module.
 
-##Solving issues
+## Solving issues
 If you are unable to install pyaudio, type the following commands:
 pip install pipwin
 
