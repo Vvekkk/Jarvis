@@ -153,14 +153,14 @@ We are using the datetime() function and storing the current or live system time
 ## Defining Task 4 : To open the VS Code Program
 To open the VS Code or any other application, we need the code path of the application.
 
-    elif 'open vs code' in query:
+    elif 'open code' in query:
         vsPath = "C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(vsPath)
 
 ## Defining Task 5 : To End Jarvis 
 To End the Jarvis
 
-    elif 'bye bye thank you' in query:
+    elif 'quit' in query:
         exit(0)
 ## Recapitulate
 - First of all, we have created a wishme() function that gives the greeting functionality according to our A.I system time.
@@ -169,7 +169,7 @@ To End the Jarvis
 - Developed code logic for opening VS Code or any other application.
 
 ## Is it an A.I.?
-Many people will argue that the virtual assistant that we have created is not an A.I, but it is the output of a bunch of the statement. But, if we look at the fundamental level, the sole purpose of A.I develop machines that can perform human tasks with the same effectiveness or even more effectively than humans.
+Many people will argue that the virtual assistant that we have created is not an A.I, but it is the output of a bunch of the statement. But, if we look at the fundamental level, the sole purpose of A.I developed machine is that it can perform human tasks with the same effectiveness or even more effectively than humans.
 
 It is a fact that our virtual assistant is not a very good example of A.I., but it is an A.I.!
 
